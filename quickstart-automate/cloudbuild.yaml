@@ -15,5 +15,5 @@
 # [START cloudbuild_quickstart_automate]
 steps:
   - name: golang
-    script: go run quickstart-automate/main.go
+    script: go run quickstart-automate/test.go
 # [END cloudbuild_quickstart_automate]
