@@ -19,5 +19,5 @@ import (
 )
 
 func main () {
-  fmt.Println("Hello, universe! My name is Cloud Build.  ")
+  fmt.Println("Hello, universe! My name is Cloud Build. I am here to help you automate your workflow.")
 }
