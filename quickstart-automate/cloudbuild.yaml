@@ -18,5 +18,6 @@ steps:
     args: ['go', 'run', 'quickstart-automate/main.go']
 
 options:
-  logging: CLOUD_LOGGING_ONLY / NONE
+  logging: CLOUD_LOGGING_ONL
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKETY
 # [END cloudbuild_quickstart_automate]
